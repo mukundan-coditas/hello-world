@@ -1,0 +1,23 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "server.js",
+  "scripts": {
+    "test": "test.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mukundan-coditas/hello-world.git"
+  },
+  "author": "mukundan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mukundan-coditas/hello-world/issues"
+  },
+  "homepage": "https://github.com/mukundan-coditas/hello-world#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

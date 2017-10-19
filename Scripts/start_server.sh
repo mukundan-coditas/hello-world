@@ -2,4 +2,4 @@
 
 cd /media/myApp
 
-forever server.js
+forever start server.js

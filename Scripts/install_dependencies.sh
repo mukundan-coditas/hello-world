@@ -1,11 +1,7 @@
 #!/bin/bash
 
-cd /media
-
-chmod -R 777 myApp
-
-cd myApp   
-
-npm install
+cd /media/myApp
 
 npm install -g forever
+
+npm install

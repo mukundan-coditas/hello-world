@@ -1,8 +1,10 @@
 #!/bin/bash
 
-cd /media/myApp
+cd /media
 
-sudo su
+chmod -R 777 myApp
+
+cd myApp   
 
 npm install
 

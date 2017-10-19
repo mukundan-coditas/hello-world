@@ -1,0 +1,23 @@
+version: 0.0.1
+os: linux
+files:
+  - source: /
+    destination: /media/myApp
+hooks:
+  BeforeInstall:
+    - location: Scripts/install_dependencies.sh
+      timeout: 600
+      runas: root
+  AfterInstall:
+    - location: Scripts/after_install.sh
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: Scripts/start_server.sh
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: Scripts/stop_server.sh
+      timeout: 300
+      runas: root
+  

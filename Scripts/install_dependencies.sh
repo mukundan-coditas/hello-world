@@ -2,6 +2,6 @@
 
 cd /media/myApp
 
-npm install
+sudo npm install
 
-npm install -g forever
+sudo npm install -g forever

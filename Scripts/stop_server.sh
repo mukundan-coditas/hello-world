@@ -2,4 +2,4 @@
 set -euo pipefail
 cd /media/myApp
 
-forever stop server.js
+sudo forever stop server.js

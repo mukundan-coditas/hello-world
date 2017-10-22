@@ -2,4 +2,4 @@
 set -euo pipefail
 cd /media/myApp
 
-forever start server.js
+sudo forever start server.js

@@ -1,7 +1,7 @@
 #!/bin/bash
-set -euo pipefail
 
-cd /media/myApp
+cd /media
 
-npm install
+mkdir myApp
+
 npm install -g forever
